@@ -15,7 +15,7 @@ LIGASPORT vende zapatillas y ropa originales (Nike y Jordan) en su local de Coll
 | RF3 | Registrar cada venta con su canal (Local, WhatsApp, Facebook, TikTok) y descontar el stock al confirmarla | `venta_nueva.php`, `ventas.php` |
 | RF4 | Consultar el stock por producto y talla desde cualquier equipo | `stock.php`, `api/stock.php` |
 | RF5 | Reportes de ventas y de stock por periodo, con exportación a Excel (CSV) | `reportes.php` |
-| RF6 | Chatbot por reglas para clientes (reglas del Anexo 2) | `chatbot.php`, `api/chatbot.php` |
+| RF6 | Chatbot por reglas para clientes (reglas del Anexo 2) | `asistente.php`, `api/asistente.php` |
 | RNF1 | Acceso desde el navegador, sin instalar nada en cada equipo | toda la aplicación |
 | RNF2 | Información centralizada en MySQL | `database/ligasport_db.sql` |
 | RNF3 | Usuario y contraseña cifrada, con permisos por rol (administrador y vendedor) | `login.php`, `usuarios.php` |
@@ -50,7 +50,7 @@ C:\xampp\php\php.exe -S 127.0.0.1:8000 -t .
 
 Son credenciales de prueba para la demo local: cámbielas desde **Usuarios** antes de publicar el sistema.
 
-El chatbot es público (no pide iniciar sesión): `http://localhost/ligasport-web/chatbot.php`.
+El chatbot es público (no pide iniciar sesión): `http://localhost/ligasport-web/asistente.php`.
 
 ## Base de datos
 

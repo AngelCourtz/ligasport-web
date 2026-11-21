@@ -41,7 +41,7 @@
   async function enviar(texto, silencioso) {
     if (!silencioso) burbuja(texto, 'yo');
     try {
-      const r = await fetch('api/chatbot.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ mensaje: texto }) });
+      const r = await fetch('api/asistente.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ mensaje: texto }) });
       const data = await r.json();
       burbuja(data.respuesta, 'bot', data.whatsapp);
       sugerencias(data.sugerencias);

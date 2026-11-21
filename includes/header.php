@@ -31,7 +31,7 @@ $f = flash();
       <?php foreach ($menu as $key => [$href, $label, $ico]): ?>
         <a href="<?= e($href) ?>" class="<?= $activo === $key ? 'active' : '' ?>"><span class="ico"><?= $ico ?></span><?= e($label) ?></a>
       <?php endforeach; ?>
-      <a href="chatbot.php" target="_blank"><span class="ico">✉</span>Chatbot (clientes)</a>
+      <a href="asistente.php" target="_blank"><span class="ico">✉</span>Chatbot (clientes)</a>
     </nav>
     <div class="me">
       <div><strong><?= e($u['nombre']) ?></strong><small><?= e(ucfirst($u['rol'])) ?></small></div>

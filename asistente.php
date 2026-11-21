@@ -31,6 +31,6 @@ require __DIR__ . '/includes/bootstrap.php';
   <div class="chips" id="chips"></div>
   <form class="send" id="f"><input id="txt" placeholder="Escriba su consulta… ej.: Dunk Low talla 42" autocomplete="off" maxlength="300"><button class="btn">Enviar</button></form>
 </div>
-<script src="assets/js/chatbot.js"></script>
+<script src="assets/js/asistente.js"></script>
 </body>
 </html>

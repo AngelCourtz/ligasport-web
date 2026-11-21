@@ -44,6 +44,13 @@ function cfg(string $key)
     return $v;
 }
 
+/** Ruta de un archivo estático con versión, para que el navegador no use una copia vieja. */
+function asset(string $path): string
+{
+    $file = __DIR__ . '/../' . $path;
+    return $path . (is_file($file) ? '?v=' . filemtime($file) : '');
+}
+
 /** Escapa texto para HTML. */
 function e($v): string
 {

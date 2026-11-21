@@ -6,6 +6,10 @@ declare(strict_types=1);
 
 date_default_timezone_set('America/Lima');
 $CONFIG = require __DIR__ . '/../config.php';
+// En un hosting, config.local.php (no se sube a GitHub) reemplaza los datos de conexión.
+if (is_file(__DIR__ . '/../config.local.php')) {
+    $CONFIG = array_replace_recursive($CONFIG, require __DIR__ . '/../config.local.php');
+}
 
 if (session_status() === PHP_SESSION_NONE) {
     session_set_cookie_params(['httponly' => true, 'samesite' => 'Lax']);

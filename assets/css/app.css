@@ -92,6 +92,11 @@ input:focus, select:focus { outline: 2px solid #fecdca; border-color: var(--red)
 .login-box p { text-align: center; margin-top: 0; }
 .login-box .btn { width: 100%; margin-top: 16px; }
 .login-box input { margin-bottom: 12px; }
+.login-note { font-size: 12.5px; color: var(--muted); margin: 10px 0 0; }
+.cliente-box { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); text-align: center; }
+.cliente-box strong { display: block; font-size: 16px; }
+.cliente-box span { display: block; font-size: 13.5px; color: var(--muted); margin: 4px 0 4px; }
+.cliente-box .btn { margin-top: 10px; }
 
 /* ---------- venta ---------- */
 .results { border: 1px solid var(--line); border-radius: 8px; max-height: 260px; overflow-y: auto; margin-top: 8px; }

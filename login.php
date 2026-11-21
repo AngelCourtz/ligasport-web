@@ -38,6 +38,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <label for="p">Contraseña</label>
     <input id="p" name="contrasena" type="password" required>
     <button class="btn" type="submit">Ingresar</button>
+    <p class="login-note">Acceso solo para el personal de la tienda.</p>
+    <div class="cliente-box">
+      <strong>¿Eres cliente?</strong>
+      <span>Consulta modelos, tallas, precios, envíos y formas de pago al instante, sin registrarte.</span>
+      <a class="btn secondary" href="asistente.php">Consultar aquí →</a>
+    </div>
   </form>
 </div>
 </body>

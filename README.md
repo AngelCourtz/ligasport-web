@@ -4,6 +4,8 @@ Prototipo funcional del proyecto de innovación **“Implementación de un siste
 
 LIGASPORT vende zapatillas y ropa originales (Nike y Jordan) en su local de Collique y por TikTok, Facebook y WhatsApp. Antes registraba las ventas en Excel y WhatsApp, y la consulta de stock tomaba unos 12 minutos. Este sistema centraliza **productos, stock, ventas, clientes y usuarios** en una sola base de datos, y suma un **chatbot por reglas** para atender las consultas frecuentes de los clientes.
 
+**Demo en línea:** https://ligasport.infinityfreeapp.com · Asistente para clientes: https://ligasport.infinityfreeapp.com/asistente.php
+
 ![Inicio](docs/capturas/02_inicio.png)
 
 ## Funciones (requerimientos de la tesis)
